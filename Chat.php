@@ -9,7 +9,7 @@
         }
 
         public function parler() {
-            echo '<div> Miaou</div><br>';
+            echo '<div>'.$this->getNom().' dit meeoooww</div><br>';
         }
     }
 
