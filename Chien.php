@@ -8,7 +8,7 @@
         }
         
         public function parler() {
-            echo '<div>Ouaf</div>';
+            echo '<div>'.$this->getNom().' dit wouuf</div>';
         }
 
     }
